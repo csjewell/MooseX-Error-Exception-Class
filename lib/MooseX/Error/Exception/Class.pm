@@ -4,7 +4,7 @@ use 5.008001;
 use warnings;
 use strict;
 
-our $VERSION = '0.099';
+our $VERSION = '0.099_001';
 $VERSION = eval { return $VERSION };
 
 use Exception::Class 1.29 (
@@ -109,7 +109,7 @@ __END__
 
 =begin readme text
 
-MooseX::Error::Exception::Class version 0.099
+MooseX::Error::Exception::Class version 0.099_001
 
 =end readme
 
@@ -121,7 +121,7 @@ MooseX::Error::Exception::Class - Use Exception::Class exceptions for Moose erro
 
 =head1 VERSION
 
-This document describes MooseX::Error::Exception::Class version 0.099
+This document describes MooseX::Error::Exception::Class version 0.099_001
 
 =head1 SYNOPSIS
 
