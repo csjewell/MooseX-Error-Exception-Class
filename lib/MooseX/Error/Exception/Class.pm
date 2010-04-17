@@ -7,6 +7,8 @@ use strict;
 our $VERSION = '0.099_001';
 $VERSION = eval { return $VERSION };
 
+use base 'Moose::Error::Default';
+
 use Exception::Class 1.29 (
 	'Exception::Moose' => {
 		'description' => 'Error',
