@@ -15,6 +15,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl'             => 5.008001,
+        'parent'           => 0.223,
         'Moose'            => 0.88,
         'Exception::Class' => 1.29,
     },
