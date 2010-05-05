@@ -5,9 +5,9 @@ use warnings;
 use strict;
 
 our $VERSION = '0.099_001';
-$VERSION = eval { return $VERSION };
+$VERSION =~ s/_//ms;
 
-use base 'Moose::Error::Default';
+use parent 'Moose::Error::Default';
 
 use Exception::Class 1.29 (
 	'Exception::Moose' => {
